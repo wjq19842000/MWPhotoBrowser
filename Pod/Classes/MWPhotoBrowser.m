@@ -1100,7 +1100,9 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
             self.title = [NSString stringWithFormat:@"%lu %@ %lu", (unsigned long)(_currentPageIndex+1), NSLocalizedString(@"of", @"Used in the context: 'Showing 1 of 3 items'"), (unsigned long)numberOfPhotos];
         }
 	} else {
-		self.title = nil;
+        // WJQ start
+		// self.title = nil;
+        // WJQ end
 	}
 	
 	// Buttons
